@@ -7,7 +7,7 @@ from keras import backend as K
 from keras.utils.np_utils import to_categorical
 batch_size = 128
 num_classes = 10
-epochs = 10
+epochs = 20
 # Split the data between train and test sets
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
 print('First example: ', x_train[0])
